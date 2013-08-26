@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I..\TempetatureSensor_1var -I.\include -I.\YLibrary -I.\common_nxp\inc -I.\drivers_nxp -I.\ffat_chan -I.\drivers_mthomas 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\Philips 
+-DARM7_LPC21xx_KEIL_RVDS -DFATLPCMCI_MTH -DconfigUSE_MUTEXES -DYDEBUG -o "yfifo.o" --omf_browse "yfifo.crf" --depend "yfifo.d" "YLibrary\YFifo.c"

@@ -1,0 +1,53 @@
+*** Creating Trace Output File 'TempSensor.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"lpc2400.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"croutine.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"portasm.o"'
+### List of Objects: adding '"heap_2.o"'
+### List of Objects: adding '"ydebug.o"'
+### List of Objects: adding '"yonewire.o"'
+### List of Objects: adding '"sensorslist.o"'
+### List of Objects: adding '"ydelay.o"'
+### List of Objects: adding '"sdram.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"yfilefifo.o"'
+### List of Objects: adding '"log.o"'
+### List of Objects: adding '"wd.o"'
+### List of Objects: adding '"ff.o"'
+### List of Objects: adding '"irq.o"'
+### List of Objects: adding '"target.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"dma.o"'
+### List of Objects: adding '"mci.o"'
+### List of Objects: adding '"swi_handler.o"'
+### List of Objects: adding '"readfifo.o"'
+### List of Objects: adding '"retarget.o"'
+### List of Objects: adding '"gettime_lpcrtc.o"'
+### List of Objects: adding '"rtc.o"'
+### List of Objects: adding '"comm.o"'
+### List of Objects: adding '"monitor.o"'
+### List of Objects: adding '"diskio.o"'
+### List of Objects: adding '"cc932.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "lpc2400.o" "main.o" "croutine.o" "list.o" "port.o" "queue.o" "tasks.o" "timers.o" "portasm.o" "heap_2.o" "ydebug.o" "yonewire.o" "sensorslist.o" "ydelay.o" "sdram.o" "lcd.o" "yfilefifo.o" "log.o" "wd.o" "ff.o" "irq.o" "target.o" "timer.o" "dma.o" "mci.o" "swi_handler.o" "readfifo.o" "retarget.o" "gettime_lpcrtc.o" "rtc.o" "comm.o" "monitor.o" "diskio.o" "cc932.o" 
+--strict --scatter "TempSensor.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\TempSensor.map" -o TempSensor.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'TempSensor.axf'
+### ADS-LD Command File: 'TempSensor.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'TempSensor.lnp', Handle=0x00000308
+### Writing '.lnp' file
+### ADS-LD Command file 'TempSensor.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
