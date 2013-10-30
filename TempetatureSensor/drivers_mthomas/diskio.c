@@ -147,7 +147,7 @@ static volatile void dump_status( const char* info )
 #define dump_status(s__)
 #endif
 
-static INLINE USHORT currstate_from_status( DWORD st )
+static INLINE unsigned short currstate_from_status( DWORD st )
 {
 	return ( (st >> 9 ) & 0xff );
 }

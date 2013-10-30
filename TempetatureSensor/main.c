@@ -2170,7 +2170,7 @@ int main( void )
 		d_status = disk_initialize(0);
 		if (d_status == 0)
 		{
-			f_result = f_mount(0, &fat_fs);
+			f_result = f_mount(&fat_fs, 0, 0);
 			if (f_result != FR_OK)
 			{
 				YDebugSendMessage("Wrong SD cart file system, need FAT32\t\n", 39);
